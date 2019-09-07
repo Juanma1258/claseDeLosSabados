@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "arrays.h"
+#define CANT_NOTAS 2
+
+int main()
+{
+    int notas[CANT_NOTAS];
+
+    pedirArray(notas,CANT_NOTAS);
+    mostrarArray(notas,CANT_NOTAS);
+
+    return 0;
+}

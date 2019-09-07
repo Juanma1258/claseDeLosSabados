@@ -1,0 +1,22 @@
+#include "arrays.h"
+#include <stdio.h>
+
+/** \brief Los numeros ingresados por el usuario son mostrados en pantalla.
+ *
+ * \param array los numeros ya ingresados por el usuario.
+ * \param cantidad es la cantidad de numeros, aún no definida.
+ * \return
+ *
+ */
+
+int mostrarArray(int array[], int cantidad)
+{
+    int i;
+
+    for(i = 0; i < cantidad; i++)
+    {
+        printf("%d\n", array[i]);
+    }
+
+    return 0;
+}

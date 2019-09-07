@@ -1,0 +1,21 @@
+#include "arrays.h"
+#include <stdio.h>
+
+/** \brief El usuario ingresa x cantidad de numeros.
+ *
+ * \param array los numeros que ingresa el usuario.
+ * \param cantidad es la cantidad de numeros que ingresa el usuario.
+ * \return
+ *
+ */
+
+void pedirArray(int array[],int cantidad)
+{
+    int i;
+
+    for(i = 0; i < cantidad; i++)
+    {
+        printf("ingrese un numero: ");
+        scanf("%d", &array[i]);
+    }
+}
